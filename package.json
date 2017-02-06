@@ -1,0 +1,38 @@
+{
+  "name": "remote_command_runner",
+  "version": "1.0.0",
+  "description": "send commands to your connected PC using your mail address",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "imap": "^0.8.19",
+    "mailin": "^3.0.4",
+    "mail-listener2": "^0.3.1",
+    "m": "^1.3.1",
+    "mail-listener": "^0.7.1",
+    "nodemailer": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassineFadhlaoui/Remote-Command-Runner.git"
+  },
+  "keywords": [
+    "IMAP",
+    "NodeJS",
+    "Linux",
+    "Remote"
+  ],
+  "author": "Yassine-Fadhlaoui",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/YassineFadhlaoui/Remote-Command-Runner/issues"
+  },
+  "homepage": "https://github.com/YassineFadhlaoui/Remote-Command-Runner#readme"
+}
