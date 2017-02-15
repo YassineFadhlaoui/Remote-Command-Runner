@@ -6,6 +6,7 @@ Control your PC from your mobile
 * NodeJS will start by running imap.py file which will connect to your account and fetch new mails
 * if a new mail with the object "command" was found the command will be parsed then launshed
 * Finally the program will notify you about the status of the previous commands by sending you a mail
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
@@ -56,7 +57,7 @@ You can start the server by just typing the famous command:
 open your e-mail and send an email to the email address you've created previously :
 * object : your_subject
 * mail :
-         ls -l\****yoursecret\****1457****
+         ls -l **** yoursecret **** 1457 ****
 
 ## Requirments
   * Python installed
