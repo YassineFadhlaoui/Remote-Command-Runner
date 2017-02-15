@@ -1,5 +1,5 @@
 # Remote-Command-Runner
-Remotly run command commands using mails
+Control your PC from your mobile
 ## How it Works ?
 * NodeJS will start by running imap.py file which will connect to your account and fetch new mails
 * if a new mail with the object "command" was found the command will be parsed then launshed
@@ -13,10 +13,12 @@ $ git clone https://github.com/YassineFadhlaoui/Remote-Command-Runner.git
 $ cd Remote-Command-Runner
 ```
 ### Install client dependencies 
-    ```
-    $ npm install
-    $ sudo pip install imap
-    ```
+    
+ ```
+ $ npm install
+ $ sudo pip install imap
+ ```
+    
 ## Running the tests
 how to run the project ?
 ### valid gmail address
@@ -56,14 +58,17 @@ ls -l****yoursecret****1457****
   
   * Javascript
   * Python
-## ## Authors
+  
+## Authors
 
 * **Yassine Fadhlaoui** - *Initial work* - [Yassine Fadhlaoui](https://github.com/YassineFadhlaoui)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Remote-Command-Runner/blob/master/LICENSE) file for details
+
  ## Questions ?
+ 
  feel free to ask me any question :
  * yassinefadhlaoui93@gmail.com
  * [Facebook](https://www.facebook.com/yassine.fadhlaoui.9)
