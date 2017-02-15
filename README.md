@@ -56,7 +56,7 @@ You can start the server by just typing the famous command:
 ### test
 open your e-mail and send an email to the email address you've created previously :
 * object : your_subject
-* mail :
+* mail :(please omit spaces)
          ls -l **** yoursecret **** 1457 ****
 
 ## Requirments
