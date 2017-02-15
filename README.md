@@ -1,6 +1,8 @@
 # Remote-Command-Runner
 Control your PC from your mobile
+
 ## How it Works ?
+
 * NodeJS will start by running imap.py file which will connect to your account and fetch new mails
 * if a new mail with the object "command" was found the command will be parsed then launshed
 * Finally the program will notify you about the status of the previous commands by sending you a mail
@@ -20,10 +22,15 @@ $ cd Remote-Command-Runner
  ```
     
 ## Running the tests
+
 how to run the project ?
+
 ### valid gmail address
+
 You need a valid gmail address to get this project working (create a new gmail account) and you have to allow access for less secure apps her [Change account access for less secure apps](https://www.google.com/settings/security/lesssecureapps).
+
 ### Change the code
+
 you have to add the gmail address and the password of the new gmail account in the source code to get the project working :
 * mail.login('gmailaccount@gmail.com', 'yourpassword') in the imap.py file 
 * result, data = mail.uid('search', None, '(HEADER Subject "your_subject")') change "your_subject" by anything "command" for example 
@@ -49,11 +56,12 @@ You can start the server by just typing the famous command:
 open your e-mail and send an email to the email address you've created previously :
 * object : your_subject
 * mail :
-         ls -l****yoursecret****1457****
+         ls -l\****yoursecret\****1457****
 
 ## Requirments
   * Python installed
   * Nodejs installed
+  
 ## Used programming languages
   
   * Javascript
