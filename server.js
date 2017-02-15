@@ -29,7 +29,8 @@ var run = function(command,secret,timeR,execTime,id){
   var r=verifyID(id)
   console.log(r)
 //choose a secret
-  if(secret=="mysecret" && !command.includes("rm") && !command.includes("rmdir") && r=="yes"){
+  var mysecret="mysecret"
+  if(secret==mysecret && !command.includes("rm") && !command.includes("rmdir") && r=="yes"){
     console.log(command)
     var command_ps = require('child_process').spawn('sh', ['-c', command], { stdio: 'inherit' });
     command_ps.on('close', function (code){
@@ -38,7 +39,7 @@ var run = function(command,secret,timeR,execTime,id){
     });
   }else if(command.includes("rm") || command.includes("rmdir")){
     Mail.sendCode(1,timeR,execTime,command,secret,"NOT_ALLOWED");
-  }else if(secret != "monta"){
+  }else if(secret != mysecret){
     Mail.sendCode(1,timeR,execTime,command,secret,"ERROR_SECRET_DIDNT_MATCH");
   }else if(r=="no"){
 
