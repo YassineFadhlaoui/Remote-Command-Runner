@@ -41,6 +41,15 @@ you have to add the gmail address and the password of the new gmail account in t
 That's all :)
 
 ### Launch the server
+<<<<<<< HEAD
+=======
+* using Gulp
+If you are familar with gulp you can launch the server by just typing :
+
+    ```
+    $ gulp
+    ```
+>>>>>>> 60a734e9b0acc7750b90c8fe865b164db51fa128
 * using node
 You can start the server by just typing the famous command:
 
