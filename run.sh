@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/yassine/Documents/Programming/NodeJS/Mailer
-node /home/yassine/Documents/Programming/NodeJS/Mailer/server.js
+cd path_to_command-runner_folder
+node path_to_command-runner_folder/server.js

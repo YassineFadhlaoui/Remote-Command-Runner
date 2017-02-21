@@ -77,3 +77,8 @@ try{
 }catch(e){
   console.log("not connected")
 }
+var stream = fs.createWriteStream("redo.txt");
+  stream.once('open', function(fd) {
+  stream.write("redo")
+  stream.end();
+});
