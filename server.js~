@@ -1,4 +1,3 @@
-
 var Mail = require('./response')
 var fs   = require('fs')
 var verifyID=function(newID){
