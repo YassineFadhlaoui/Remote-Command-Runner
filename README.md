@@ -28,7 +28,7 @@ how to run the project ?
 
 ### valid gmail address
 
-You need a valid gmail address to get this project working (create a new gmail account) and you have to allow access for less secure apps her [Change account access for less secure apps](https://www.google.com/settings/security/lesssecureapps).
+You need a valid gmail address to get this project working (create a new gmail account) and you have to allow access for less secure apps here [Change account access for less secure apps](https://www.google.com/settings/security/lesssecureapps).
 
 ### Change the code
 
@@ -37,16 +37,29 @@ you have to add the gmail address and the password of the new gmail account in t
 * result, data = mail.uid('search', None, '(HEADER Subject "your_subject")') change "your_subject" by anything "command" for example 
 * var transporter = nodemailer.createTransport('smtps://gmailaccount%40gmail.com:yourpassword@smtp.gmail.com'); in the response.js file
 *  var mysecret="mysecret" change the secret if you want by a secret from your choice in the server.js file
+* Changing run.sh file
+
+    ```
+    cd path_to_command-runner_folder
+    node path_to_command-runner_folder/server.js
+    ```
+
+* creating cron job
+You have to create a cron job to run our server every minute
+
+    ```
+    $ crontab -e
+    ```
+and add the following line :
+
+    ```
+    $  */1 * * * * path-to-Remote-Command-Runner/run.sh 
+    ```
 
 That's all :)
 
 ### Launch the server
-* using Gulp
-If you are familar with gulp you can launch the server by just typing :
 
-    ```
-    $ gulp
-    ```
 * using node
 You can start the server by just typing the famous command:
 
