@@ -74,7 +74,7 @@ open your e-mail and send an email to the email address you've created previousl
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Remote-Command-Runner/blob/master/LICENSE) file for details
+This project is licensed under the [GPL-2.0 License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) - see the [LICENSE](https://github.com/Remote-Command-Runner/blob/master/LICENSE) file for details
 
 ## Questions ?
  
